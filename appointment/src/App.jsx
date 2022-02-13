@@ -1,11 +1,15 @@
+import Header from "./components/Header";
+import Form from "./components/Form";
+import ListClient from "./components/ListClient";
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Hola Mundo</h1>
+    <div className="container mx-auto mt-20">
+        <Header />
+        <Form />
+        <ListClient />
     </div>
   )
 }
-
 export default App
